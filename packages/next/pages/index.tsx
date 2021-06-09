@@ -4,7 +4,7 @@ import PlaneTicketDeployment from "@mono/hardhat/deployments/kovan/PlaneTicket.j
 import CreateTicket from '../component/CreateTicket'
 import VerifyOwnership from '../component/VerifyOwnership'
 
-const Home:React.FC =() => {
+const Home:React.FC = () => {
   return (
     <div className={styles.container}>
       <Head>
